@@ -7,10 +7,10 @@ use Bigcommerce\Api\Client;
 class CustomerGroup extends Resource
 {
 	protected $ignoreOnCreate = array(
-	  'id'
-  );
+		'id'
+  	);
   
 	protected $ignoreOnUpdate = array(
-	  'id'
+		'id'
 	);
 }
